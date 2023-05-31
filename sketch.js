@@ -75,7 +75,7 @@ function heuristic(a, b) {
   // return abs(a.i - b.i) + abs(a.j - b.j);
 }
 function setup() {
-  createCanvas(window.innerWidth, window.innerHeight);
+  createCanvas(window.innerHeight, window.innerHeight);
 
   //get cell size
   w = width / cols;
